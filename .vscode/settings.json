@@ -1,0 +1,25 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "${workspaceFolder}/Rust/Education/gessing_game/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/variables/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/data_types/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/functions/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/branches/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/loops/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/slices/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/structures/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/enums/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/option/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/collections/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/traits/Cargo.toml",
+        "${workspaceFolder}/Rust/Education/testing/Cargo.toml",
+        "${workspaceFolder}/Rust/Tasks/degrees/Cargo.toml",
+        "${workspaceFolder}/Rust/Tasks/fibonacci_digits/Cargo.toml",
+        "${workspaceFolder}/Rust/Tasks/massive_manipulations/Cargo.toml",
+        "${workspaceFolder}/Rust/let_code/Cargo.toml",
+    ],
+    "cSpell.words": [
+        "letcode",
+        "nums"
+    ]
+}

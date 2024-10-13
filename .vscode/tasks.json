@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+    "type": "process",
+    "command": "cargo.exe",
+    "problemMatcher": [],
+    "presentation": {
+        "panel": "shared",
+        "clear": false
+    },
+    "options": {
+        "cwd": "${fileDirname}/.."
+    },
+	"tasks": [
+        {
+            "label": "Rust: build active project",
+            "group": "build",
+            "args": [
+                "build"
+            ]
+        },
+        {
+            "label": "Rust: run active project",
+            "args": [
+                "run"
+            ],
+            "options": {
+                "env": {
+                    "RUST_BACKTRACE": "1"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+[package]
+name = "let_code"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/issues.rs"
+
+[dependencies]
+serde_json = "1.0.128"

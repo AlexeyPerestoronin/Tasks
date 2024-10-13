@@ -1,7 +1,11 @@
 # forbidden file extensions
 **/*.log
+**/*.pdb
 
 # forbidden catalogs
-build/
-libs/
 .vs/
+
+C++/build/
+C++/libs/
+
+Rust/**/target
