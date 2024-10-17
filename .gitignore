@@ -5,7 +5,7 @@
 # forbidden catalogs
 .vs/
 
-C++/build/
-C++/libs/
+Cpp/build/
+Cpp/libs/
 
 Rust/**/target
