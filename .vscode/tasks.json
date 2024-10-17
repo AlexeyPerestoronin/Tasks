@@ -1,7 +1,6 @@
 {
 	"version": "2.0.0",
     "type": "process",
-    "command": "cargo.exe",
     "problemMatcher": [],
     "presentation": {
         "panel": "shared",
@@ -12,14 +11,31 @@
     },
 	"tasks": [
         {
+            "label": "Cpp: configure",
+            "command": "conf.bat",
+            "options": {
+                "cwd": "${workspaceFolder}/Cpp"
+            }
+        },
+        {
+            "label": "Cpp: build",
+            "command": "build.bat",
+            "options": {
+                "cwd": "${workspaceFolder}/Cpp"
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "Rust: build active project",
             "group": "build",
+            "command": "cargo.exe",
             "args": [
                 "build"
             ]
         },
         {
             "label": "Rust: run active project",
+            "command": "cargo.exe",
             "args": [
                 "run"
             ],

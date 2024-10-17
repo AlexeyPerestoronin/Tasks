@@ -1,7 +1,4 @@
 /// ! https://leetcode.com/problems/combination-sum/
-
-use std::{collections::{self, HashSet}, result};
-
 pub struct Solution1;
 impl Solution1 {
     fn build_combinations(candidates: &Vec<i32>, target: &i32, mut combination: Vec<i32>, result: &mut Vec<Vec<i32>>) {

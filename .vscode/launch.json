@@ -5,9 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debug Cpp",
             "type": "lldb",
             "request": "launch",
+            "program": "${env:CLOUD_OFFICE_BUILD_BIN_DIR}/${input:UnitTest-Exe}",
+            "args": ["--gtest_filter=${input:UnitTest-Filter}"],
+            "cwd": "${workspaceFolder}/Cpp/bulid",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Debug Rust",
+            "type": "lldb",
+            "request": "launch",
             "program": "${fileDirname}/../target/debug/traits.exe",
             "args": [],
             "cwd": "${fileDirname}/..",

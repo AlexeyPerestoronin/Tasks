@@ -4,8 +4,8 @@
 
 # forbidden catalogs
 .vs/
+.cache/
 
-Cpp/build/
-Cpp/libs/
-
-Rust/**/target
+**/build
+**/libs
+**/target

@@ -1,4 +1,26 @@
 {
+    // "Clangd Language Serrver"-extension adjustments
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.restartAfterCrash": true,
+    "clangd.arguments": [
+        // quantity of parallel workers
+        "-j=2",
+        // show in outpot only error-messages
+        "--log=error",
+        // pretty pring a json-output
+        "--pretty",
+        // launch indexing in background
+        "--background-index",
+        // never insert headers to solve symbols mistake found problem
+        "--header-insertion=never",
+        // full path to the code build directory
+        // "--compile-commands-dir=${env:CLOUD_OFFICE_BUILD_DIR}"
+    ],
+
+    // "C++ TestMate"-extension adjustments
+    "testMate.cpp.test.executables" : "${workspaceFolder}/Cpp/build/*.exe",
+    "testMate.cpp.debug.configTemplate": "name:Debug Cpp",
+
     "rust-analyzer.linkedProjects": [
         "${workspaceFolder}/Rust/Education/gessing_game/Cargo.toml",
         "${workspaceFolder}/Rust/Education/variables/Cargo.toml",
@@ -21,5 +43,5 @@
     "cSpell.words": [
         "letcode",
         "nums"
-    ]
+    ],
 }
