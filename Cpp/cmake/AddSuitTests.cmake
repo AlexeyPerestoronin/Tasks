@@ -10,7 +10,10 @@ function(AddSuitTest i_targetTestFile)
     get_filename_component(fileNameWithouExtension ${i_targetTestFile} NAME_WE)
     set(suitTestExeName ${suitTestPrefix}-${fileNameWithouExtension})
     add_executable(${suitTestExeName} "${CMAKE_SOURCE_DIR}/src/main.cpp" ${i_targetTestFile})
-    target_include_directories(${suitTestExeName} PRIVATE ${GTEST_INCLUDE_DIR})
+    target_include_directories(${suitTestExeName}
+        PRIVATE
+        ${gtest_SOURCE_DIR}/include
+        ${gmock_SOURCE_DIR}/include)
     target_link_libraries(${suitTestExeName} GTest::gtest_main)
     target_link_libraries(${suitTestExeName} GTest::gmock_main)
 

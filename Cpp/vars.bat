@@ -6,4 +6,5 @@ echo Current instance dir: %CURRENT_INSTANCE_DIR%
 set BUILD_DIR=%CURRENT_INSTANCE_DIR%/build
 echo Current build dir: %BUILD_DIR%
 
-set PATH=C:/Program Files/LLVM/bin;%PATH%
+@REM set PATH=C:/Program Files/LLVM/bin;%PATH%
+set PATH=C:/tools/msys64/clang64/bin;%PATH%

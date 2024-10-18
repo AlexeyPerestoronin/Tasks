@@ -6,12 +6,20 @@
     "configurations": [
         {
             "name": "Debug Cpp",
-            "type": "lldb",
+            "type": "cppdbg",
             "request": "launch",
-            "program": "${env:CLOUD_OFFICE_BUILD_BIN_DIR}/${input:UnitTest-Exe}",
+            // "preRunCommands": [
+            //     "command script import --allow-reload ${workspaceFolder}/Cpp/lldbnim.py"
+            // ],  
+            "stopAtEntry": false,
+            "miDebuggerPath": "C:/tools/msys64/clang64/bin/lldb-mi.exe",
+            "program": "TODO: ...",
             "args": ["--gtest_filter=${input:UnitTest-Filter}"],
             "cwd": "${workspaceFolder}/Cpp/bulid",
-            "console": "integratedTerminal"
+            // "logging": {
+            //     "--wait-for-debugger": false
+            // }
+            "externalConsole": true
         },
         {
             "name": "Debug Rust",
