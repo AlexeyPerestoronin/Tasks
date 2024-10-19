@@ -43,7 +43,6 @@ struct TestSolution : Solution, testing::TestWithParam<TestDataType> {};
 
 TEST_P(TestSolution, Test1) {
   auto [input_data, output_data] = GetParam();
-  // const auto &[left, right] = input;
   ASSERT_EQ(permute(input_data), output_data);
 }
 } // namespace
