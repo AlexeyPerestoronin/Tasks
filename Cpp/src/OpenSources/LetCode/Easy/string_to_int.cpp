@@ -25,7 +25,7 @@ namespace {
     public:
     uint64_t myAtoi(const char* i_str) {
       // TODO: implement this method...
-      return 0ui64;
+      return 0;
     }
   };
 

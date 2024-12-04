@@ -1,12 +1,14 @@
 /// https://leetcode.com/problems/maximum-subarray/
-/// 
+///
 /// Здесь надо использовать алгоритм Кэхэна:
 /// https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%9A%D1%8D%D1%85%D1%8D%D0%BD%D0%B0
 
 #include <vector>
 
+#include <algorithm>
 #include <gtest/gtest-param-test.h>
 #include <gtest/gtest.h>
+
 
 namespace {
 using InputDataType = std::vector<int>;

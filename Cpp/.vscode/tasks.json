@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "type": "process",
+    "problemMatcher": [],
+    "presentation": {
+        "panel": "shared",
+        "clear": false
+    },
+    "options": {
+        "cwd": "${workspaceFolder}"
+    },
+    "tasks": [
+        {
+            "label": "Cpp: configure",
+            "command": "conf.bat",
+        },
+        {
+            "label": "Cpp: build",
+            "command": "build.bat",
+        }
+    ]
+}
