@@ -1,3 +1,16 @@
+# Оглавление
+* Тезаурус
+* Процедура установки Rust
+    * Настройка IDE VSCode для работы с Rust
+    * Настройка и сборка проекта Rust
+    * Без использования Cargo
+    * С использованием Cargo
+* Тестирование кода на Rust
+    * cargo команды
+* Идеи проектов для реализации на Rust
+    * HashSum
+    * SQL-BD
+    * Web-сайт для мастерской
 
 
 <h1 style="text-align: center; color: #ff9933; font-size: 56px;">Rust</h1>
@@ -90,3 +103,6 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=fill-la
 ## SQL-BD
 Создать телеграм бота, который будет вести SQL базу данных.
 Должна быть возможность удобного управления записями.
+
+## Web-сайт для мастерской
+Создать web-сайт для мастерской.
