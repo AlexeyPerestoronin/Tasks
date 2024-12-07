@@ -4,7 +4,9 @@
     "clangd.restartAfterCrash": true,
     "clangd.fallbackFlags": [
         "-I${workspaceFolder}/build/_deps/googletest-src/googletest/include",
-        "-I${workspaceFolder}/build/_deps/googletest-src/googlemock/include"
+        "-I${workspaceFolder}k/build/_deps/googletest-src/googlemock/include",
+        // specify the C++ standard to use
+        "--std=c++17"
     ],
     "clangd.arguments": [
         // quantity of parallel workers
@@ -18,17 +20,84 @@
         // never insert headers to solve symbols mistake found problem
         "--header-insertion=never",
         // full path to the code build directory
-        "--compile-commands-dir=build",
+        "--compile-commands-dir=build"
     ],
-
-    // "clang-format.style": "${workspaceFolder}/Cpp/.clang-format",
-
+    // "clang-format"-extension adjustments
+    "clang-format.style": "${workspaceFolder}/.clang-format",
     // "C++ TestMate"-extension adjustments
-    "testMate.cpp.test.executables" : "${workspaceFolder}/build/*.exe",
+    "testMate.cpp.test.executables": "${workspaceFolder}/build/*.exe",
     "testMate.cpp.debug.configTemplate": "name:TestMate: Debug",
-
     "cSpell.words": [
         "letcode",
         "nums"
-    ]
+    ],
+    "files.associations": {
+        "algorithm": "cpp",
+        "any": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "condition_variable": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "exception": "cpp",
+        "functional": "cpp",
+        "initializer_list": "cpp",
+        "iomanip": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "limits": "cpp",
+        "list": "cpp",
+        "locale": "cpp",
+        "map": "cpp",
+        "memory": "cpp",
+        "mutex": "cpp",
+        "new": "cpp",
+        "optional": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "set": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "stop_token": "cpp",
+        "streambuf": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "thread": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp",
+        "unordered_map": "cpp",
+        "utility": "cpp",
+        "variant": "cpp",
+        "vector": "cpp",
+        "xfacet": "cpp",
+        "xhash": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xlocbuf": "cpp",
+        "xlocinfo": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp",
+        "xmemory": "cpp",
+        "xstddef": "cpp",
+        "xstring": "cpp",
+        "xtr1common": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
+    }
 }
