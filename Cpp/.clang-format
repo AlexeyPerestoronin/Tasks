@@ -39,7 +39,7 @@ BraceWrapping:
   SplitEmptyFunction: true
 BreakBeforeTernaryOperators: true
 BreakConstructorInitializersBeforeComma: true
-ColumnLimit: 200
+ColumnLimit: 150
 
 # A regular expression that describes comments with special meaning, which should not be split into lines or
 # otherwise changed.
