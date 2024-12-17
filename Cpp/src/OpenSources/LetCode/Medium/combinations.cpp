@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/sort-colors
+// https://leetcode.com/problems/combinations/
 
 #include "../support.h"
 #include <algorithm>
