@@ -3,10 +3,10 @@
 
 namespace Support {
 template <class Array>
-void compareTwoArray(const Array& expected_array, const Array& real_array) {
-    ASSERT_EQ(expected_array.size(), real_array.size());
+void compareTwoArray(const Array& array1, const Array& array2) {
+    ASSERT_EQ(array1.size(), array2.size());
     size_t index{0};
-    for (auto it1 = expected_array.begin(), it2 = real_array.begin(); it1 != expected_array.end(); ++it1, ++it2, ++index) {
+    for (auto it1 = array1.begin(), it2 = array2.begin(); it1 != array1.end(); ++it1, ++it2, ++index) {
         ASSERT_EQ(*it1, *it2) << "index = " << index;
     }
 }
