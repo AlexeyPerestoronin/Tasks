@@ -106,3 +106,6 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=fill-la
 
 ## Web-сайт для мастерской
 Создать web-сайт для мастерской.
+
+## News Aggregator
+Создать телеграм бота, который будет агрегировать сообщения в едином месте из множества источников по фильтрам.

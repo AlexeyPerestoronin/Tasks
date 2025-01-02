@@ -1,0 +1,31 @@
+{
+    "rust-analyzer.linkedProjects": [
+        // "${workspaceFolder}/Education/gessing_game/Cargo.toml",
+        // "${workspaceFolder}/Education/variables/Cargo.toml",
+        // "${workspaceFolder}/Education/data_types/Cargo.toml",
+        // "${workspaceFolder}/Education/functions/Cargo.toml",
+        // "${workspaceFolder}/Education/branches/Cargo.toml",
+        // "${workspaceFolder}/Education/loops/Cargo.toml",
+        // "${workspaceFolder}/Education/slices/Cargo.toml",
+        // "${workspaceFolder}/Education/structures/Cargo.toml",
+        // "${workspaceFolder}/Education/enums/Cargo.toml",
+        // "${workspaceFolder}/Education/option/Cargo.toml",
+        // "${workspaceFolder}/Education/collections/Cargo.toml",
+        // "${workspaceFolder}/Education/traits/Cargo.toml",
+        // "${workspaceFolder}/Education/testing/Cargo.toml",
+        "${workspaceFolder}/Education/OOP/Cargo.toml",
+        // "${workspaceFolder}/Tasks/degrees/Cargo.toml",
+        // "${workspaceFolder}/Tasks/fibonacci_digits/Cargo.toml",
+        // "${workspaceFolder}/Tasks/massive_manipulations/Cargo.toml",
+         "${workspaceFolder}/let_code/Cargo.toml",
+    ],
+    "cSpell.words": [
+        "letcode",
+        "macrosses",
+        "nums",
+        "дженерики",
+        "метапрограммирования",
+        "плейсхолдеров",
+        "трейтов"
+    ]
+}
