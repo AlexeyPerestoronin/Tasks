@@ -14,4 +14,6 @@ include("${CMAKE_SOURCE_DIR}/cmake/AddGoogleTests.cmake")
 AddGoogleTests()
 
 include("${CMAKE_SOURCE_DIR}/cmake/AddSuitTests.cmake")
+
+AddSuitTests("${CMAKE_SOURCE_DIR}/src/CheckPoints")
 AddSuitTests("${CMAKE_SOURCE_DIR}/src/OpenSources/LetCode")

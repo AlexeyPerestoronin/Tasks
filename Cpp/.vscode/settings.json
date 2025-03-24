@@ -23,7 +23,8 @@
         "--compile-commands-dir=build"
     ],
     // "clang-format"-extension adjustments
-    "clang-format.style": "${workspaceFolder}/.clang-format",
+    "clang-format.assumeFilename": "${workspaceFolder}/.clang-format",
+    // "clang-format.style": "${workspaceFolder}/.clang-format",
     // "C++ TestMate"-extension adjustments
     "testMate.cpp.test.executables": "${workspaceFolder}/build/*.exe",
     "testMate.cpp.debug.configTemplate": "name:TestMate: Debug",

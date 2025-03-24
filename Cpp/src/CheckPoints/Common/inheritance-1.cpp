@@ -13,7 +13,7 @@ struct A {
     A() {
         std::cout << "\nA::A";
     }
-    ~A() {
+    virtual ~A() {
         std::cout << "\n~A::A";
     }
 };
@@ -22,7 +22,7 @@ struct B : A {
     B() {
         std::cout << "\nB::B";
     }
-    virtual ~B() {
+    ~B() {
         std::cout << "\n~B::B";
     }
 };
